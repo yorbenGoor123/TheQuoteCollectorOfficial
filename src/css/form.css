@@ -13,9 +13,11 @@
 }
 
 .add__quote__desc{
-  font-size:1.8rem;
+  font-size:1.2rem;
   display:flex;
   flex-flow:column;
+  padding-bottom:0.7rem;
+  font-weight:bold;
 }
 
 .input{
@@ -29,4 +31,10 @@ width:56rem;
   border:none;
   height:2rem;
   background:#74FBFD;
+  margin-top:2rem;
+}
+
+.form{
+  display:grid;
+  grid-template-columns:56rem auto;
 }
