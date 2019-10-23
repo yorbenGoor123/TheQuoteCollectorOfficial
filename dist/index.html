@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/style.css">
+  <title>The Plant-Based Barista</title>
+</head>
+
+<body>
+  <main class="layout">
+    <div class="main__wrapper">
+    <header class="header highlight spaced">
+      <div class="header__titles">
+        <a class="h2-like">
+          The Plant-Based Barista
+        </a>
+        <h1 class="h1-like">What do you want to order?</h1>
+      </div>
+      <picture>
+      <source type = "image/webp"
+      srcset = "/assets/Coffee cup.webp">
+
+      <img src = "../assets/Coffee cup.png" alt = "cup">
+
+
+      </picture>
+    </header>
+    <section class="prices highlight spaced">
+      <h2 class="visually-hidden">Price list</h2>
+      <ul class="prices__list">
+
+
+      </ul>
+    </div>
+    </section>
+    <section class="content spaced">
+      <h2 class="title_mini">Order</h2>
+      <div class="orders__wrapper hide">
+
+
+
+        <div class="emptystate">
+          <img srcset="../assets/coffee-maker.jpg 67w,
+          ../assets/coffee-maker@2x.jpg 134w" sizes="67px" src="./assets/img/coffee-maker.jpg" alt="A coffee maker">
+
+          <span class="emptystate__content">
+            Please order something
+            <span role="img" aria-label="Drunk emoji">
+              🤪
+            </span>
+          </span>
+        </div>
+
+        <ul class="orders">
+
+
+          <li class="order">
+            <span class="order__name">
+              <span class="order__amount"> 2 x</span> Coffee
+            </span>
+            <div class = "order__wrapper">
+            <span class="order__price">&euro; 24</span>
+            <button class="remove">
+              x
+            </button>
+          </div>
+          </li>
+
+    </ul>
+
+        <p class="total">
+          <span class="total__label">Total price</span>
+          <span class="total__price">&euro; <span>0,00</span></span>
+        </p>
+      </div>
+
+
+      <!----
+      <div class="emptystate">
+        <img srcset="./assets/img/coffee-maker.jpg 67w,
+          ./assets/img/coffee-maker@2x.jpg 134w" sizes="67px" src="./assets/img/coffee-maker.jpg" alt="A coffee maker">
+        <span class="emptystate__content">
+          Please order something
+          <span role="img" aria-label="Drunk emoji">
+            🤪
+          </span>
+        </span>
+      </div> --->
+
+    </section>
+  </main>
+
+  <nav class="navigation">
+    <ul class="menu__items">
+
+      <div class = "menu__item--wrapper">
+          <picture class = "menu__item--pic">
+              <source type = "image/webp"
+              srcset = "../assets/Home.webp">
+
+              <img src = "../assets/Home.png" alt = "cup">
+
+
+          </picture>
+      <li class="menu__item"><a class="menu__item--link" href="">Home</a></li>
+     </div>
+     <div class = "menu__item--wrapper">
+        <picture class = "menu__item--pic">
+            <source type = "image/webp"
+            srcset = "../assets/About.webp">
+
+            <img src = "../assets/About.png" alt = "cup">
+
+
+            </picture>
+      <li class="menu__item"><a class="menu__item--link" href="">About</a></li>
+    </div>
+    <div class = "menu__item--wrapper">
+        <picture class = >
+            <source type = "image/webp"
+            srcset = "../assets/Admin.webp">
+
+            <img src = "../assets/Admin.png" alt = "cup">
+
+
+            </picture>
+      <li class="menu__item"><a class="menu__item--link" href="">Admin</a></li>
+    </div>
+    </ul>
+  </nav>
+  <script src="../src/js/script.js"></script>
+</body>
+<script src = "main.js" ></script>
+</html>
