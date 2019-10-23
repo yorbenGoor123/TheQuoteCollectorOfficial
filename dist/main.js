@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("{\n  var init = function init() {\n    $button = document.querySelector(\".button\");\n    $button.addEventListener('click', handleClick);\n  };\n\n  var handleClick = function handleClick(e) {\n    var $text = document.querySelector(\".input\").value;\n    var $table = document.querySelector(\".overview__table\");\n    var today = new Date();\n    var dd = today.getDate();\n    var mm = today.getMonth() + 1; //As January is 0.\n\n    var yyyy = today.getFullYear();\n    $table.innerHTML += \"<tr class=\\\"quote__example\\\">\\n  <td class=\\\"quote\\\">\".concat($text, \"</td>\\n  <td class=\\\"date\\\">\").concat(dd, \"/\").concat(mm, \"/\").concat(yyyy, \"</td>\\n</tr>\");\n    console.log($text);\n  };\n\n  init();\n}\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("{\n  var init = function init() {\n    $button = document.querySelector(\".button\");\n    $button.addEventListener('click', handleClick);\n  };\n\n  var handleClick = function handleClick(e) {\n    var $text = document.querySelector(\".input\").value;\n    var $table = document.querySelector(\".overview__table\");\n    var today = new Date();\n    var dd = today.getDate();\n    var mm = today.getMonth() + 1; //As January is 0.\n\n    var yyyy = today.getFullYear();\n    $table.innerHTML += \"<tr class=\\\"quote__example\\\">\\n  <td class=\\\"quote\\\">\".concat($text, \"</td>\\n  <td class=\\\"date\\\">\\\"\").concat(dd, \"/\").concat(mm, \"/\").concat(yyyy, \"\\\"</td>\\n</tr>\");\n    console.log($text);\n  };\n\n  init();\n}\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
