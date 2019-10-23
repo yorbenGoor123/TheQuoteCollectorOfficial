@@ -10,6 +10,7 @@
   font-size:4.8rem;
   text-align:center;
   margin-top:3rem;
+  margin-bottom:3rem;
 }
 
 .add__quote__desc{
@@ -21,20 +22,32 @@
 }
 
 .input{
-border:none;
-background:#C4C4C4;
-height:2rem;
-width:56rem;
+  border:none;
+  background:#C4C4C4;
+  height:2rem;
+  width:100%;
+  border-radius: 0.3rem;
+  font-size:1.2rem;
 }
 
 .button{
   border:none;
-  height:2rem;
+  height:2.1rem;
+  width:80%;
+  margin-left:2rem;
   background:#74FBFD;
-  margin-top:2rem;
+  margin-top:1.9rem;
+  font-weight:bold;
+  font-size:1.5rem;
+  border-radius: 0.3rem;
+}
+
+.button:hover{
+  background:#333333;
+  color:white;
 }
 
 .form{
   display:grid;
-  grid-template-columns:56rem auto;
+  grid-template-columns:50rem auto;
 }
