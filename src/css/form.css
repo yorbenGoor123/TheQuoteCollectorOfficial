@@ -51,11 +51,21 @@
   grid-template-columns:40rem auto;
 }
 
+.section__overview>h2{
+  width:70rem;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:1rem;
+  font-size:1.8rem;
+  font-weight: 700;
+}
+
 .quote_of_the_day{
   width:50rem;
   margin-left:auto;
   margin-right:auto;
   margin-top:5rem;
+  margin-bottom:4rem;
 }
 
 .quote_of_the_day__quote{
