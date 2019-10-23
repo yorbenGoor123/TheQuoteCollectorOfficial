@@ -6,8 +6,8 @@ $button.addEventListener('click',handleClick);
 
 }
 
-const handleClick = () => {
-  console.log("e");
+const handleClick = (e) => {
+  console.log(e.Prevendefault);
 }
 init();
 }
