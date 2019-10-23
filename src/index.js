@@ -13,8 +13,8 @@ const handleClick = (e) => {
   var mm = today.getMonth()+1; //As January is 0.
   var yyyy = today.getFullYear();
   $table.innerHTML += `<tr class="quote__example">
-  <td class="quote">${$text}</td>
-  <td class="date">"${dd}/${mm}/${yyyy}"</td>
+  <td class="quote">"${$text}"</td>
+  <td class="date">${dd}/${mm}/${yyyy}</td>
 </tr>`;
   console.log($text);
 
