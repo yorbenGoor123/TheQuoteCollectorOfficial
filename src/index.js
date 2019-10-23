@@ -14,7 +14,7 @@ const handleClick = (e) => {
   var yyyy = today.getFullYear();
   $table.innerHTML += `<tr class="quote__example">
   <td class="quote">${$text}</td>
-  <td class="date">${dd}/${mm}/${yyyy}</td>
+  <td class="date">"${dd}/${mm}/${yyyy}"</td>
 </tr>`;
   console.log($text);
 
