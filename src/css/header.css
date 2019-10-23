@@ -1,31 +1,10 @@
-
 .header{
-display:flex;
-justify-content:center;
-align-items:center;
-font-family: var(--mainFont);
-height:136px;
-background-color: var(--backgroundColor)
-
+  background-color: #333333;
+  padding: 1rem;;
 }
-.h2-like{
 
-  font-size: 1.5rem;
-  line-height:14px;
-  font-weight: 300;
-
-
-  font-size: 12;
-  line-height:14px;
-
-
-  font-size: 12;
-  line-height:14px;
-
-}
-.h1-like{
-  margin-top:6px;
-  font-size: var(--titleFontSize);
-  width:236px;
-  font-weight:500;
+.header__logo{
+  color: white;
+  font-size: 3rem;
+  padding-left: 3rem;
 }
