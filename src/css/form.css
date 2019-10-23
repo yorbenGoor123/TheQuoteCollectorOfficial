@@ -52,5 +52,38 @@
 }
 
 .sections__table{
+ background-color: #333333;
+ color: white;
+}
 
+.overview__table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70rem;
+}
+
+.sections__table__quote{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.sections__table__date{
+  text-align: right;
+  padding-right: 6rem;
+}
+
+.quote__example{
+  border-bottom: #333333 solid 0.2rem;
+}
+
+.quote{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.date{
+  padding-left: 51rem;
 }
