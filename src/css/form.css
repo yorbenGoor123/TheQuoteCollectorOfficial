@@ -2,7 +2,6 @@
   width:70rem;
   margin-left:auto;
   margin-right:auto;
-  background-color:pink;
   font-size:
 }
 
@@ -50,4 +49,8 @@
 .form{
   display:grid;
   grid-template-columns:50rem auto;
+}
+
+.sections__table{
+
 }
