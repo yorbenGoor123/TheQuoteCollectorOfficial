@@ -1,5 +1,5 @@
 .add__quote{
-  width:70rem;
+  width:50rem;
   margin-left:auto;
   margin-right:auto;
   font-size:
@@ -48,7 +48,23 @@
 
 .form{
   display:grid;
-  grid-template-columns:50rem auto;
+  grid-template-columns:40rem auto;
+}
+
+.quote_of_the_day{
+  width:50rem;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5rem;
+}
+
+.quote_of_the_day__quote{
+  margin-top:3rem;
+}
+
+.quote_of_the_day__date{
+  margin-top:1rem;
+  font-size:0.7rem;
 }
 
 .sections__table{
