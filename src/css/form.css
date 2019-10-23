@@ -1,4 +1,4 @@
-.add{
+.add__quote{
   width:70rem;
   margin-left:auto;
   margin-right:auto;
@@ -13,5 +13,20 @@
 }
 
 .add__quote__desc{
-  font-size:2.4rem;
+  font-size:1.8rem;
+  display:flex;
+  flex-flow:column;
+}
+
+.input{
+border:none;
+background:#C4C4C4;
+height:2rem;
+width:56rem;
+}
+
+.button{
+  border:none;
+  height:2rem;
+  background:#74FBFD;
 }
